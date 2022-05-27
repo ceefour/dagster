@@ -77,6 +77,10 @@ module.exports = {
   moduleNameMapper: {
     '\\.(css|less)$': 'identity-obj-proxy',
     '^worker-loader(.*)/workers/(.*)$': '<rootDir>/jest/mocks/$2',
+    'react-markdown': '<rootDir>/../ui/src/__mocks__/react-markdown.js',
+    remark: '<rootDir>/../ui/src/__mocks__/remark.js',
+    'remark-gfm': '<rootDir>/../ui/src/__mocks__/remark-gfm.js',
+    'strip-markdown': '<rootDir>/../ui/src/__mocks__/strip-markdown.js',
     '^@dagster-io/ui$': '<rootDir>/../ui/src/index',
   },
 
